@@ -13,6 +13,7 @@
 		56528AA62241A0D2003BFAE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56528AA42241A0D2003BFAE9 /* Main.storyboard */; };
 		56528AA82241A0D2003BFAE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56528AA72241A0D2003BFAE9 /* Assets.xcassets */; };
 		56528AAB2241A0D2003BFAE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56528AA92241A0D2003BFAE9 /* LaunchScreen.storyboard */; };
+		56A9F31C224C29E10089CB8C /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A9F31B224C29E10089CB8C /* CategoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		56528AA72241A0D2003BFAE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56528AAA2241A0D2003BFAE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56528AAC2241A0D2003BFAE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A9F31B224C29E10089CB8C /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 		563DD6082241B23100F6B9FD /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				56A9F31B224C29E10089CB8C /* CategoryTableViewController.swift */,
 				56528AA22241A0D2003BFAE9 /* ToDoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 				56528AA32241A0D2003BFAE9 /* ToDoListViewController.swift in Sources */,
 				562603932245855000304B35 /* DataModel.xcdatamodeld in Sources */,
 				56528AA12241A0D2003BFAE9 /* AppDelegate.swift in Sources */,
+				56A9F31C224C29E10089CB8C /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
